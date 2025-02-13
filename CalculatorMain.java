@@ -8,7 +8,7 @@ class Calculator
   {
     System.out.println("Subtraction : "+(a-b));
   }
-  public void sub(int a, int b)
+  public void mul(int a, int b)
   {
     System.out.println("Multiplication : "+(a*b));
   }
