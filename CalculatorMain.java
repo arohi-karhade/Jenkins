@@ -16,6 +16,10 @@ class Calculator
   {
     System.out.println("Division : "+(a/b));
   }
+  public void mod(int a, int b)
+  {
+    System.out.println("Modulus : "+(a%b));
+  }
 }
 
 public class CalculatorMain
@@ -29,5 +33,6 @@ public class CalculatorMain
     c1.sub(10, 20);
     c1.mul(10, 20);
     c1.div(20, 10);
+    c1.mod(20, 10);
   }
 }
