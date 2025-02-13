@@ -12,6 +12,10 @@ class Calculator
   {
     System.out.println("Multiplication : "+(a*b));
   }
+  public void div(int a, int b)
+  {
+    System.out.println("Division : "+(a/b));
+  }
 }
 
 public class CalculatorMain
@@ -24,5 +28,6 @@ public class CalculatorMain
     c1.add(10, 20);
     c1.sub(10, 20);
     c1.mul(10, 20);
+    c1.div(10, 20);
   }
 }
