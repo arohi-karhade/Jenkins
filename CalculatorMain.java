@@ -2,23 +2,23 @@ class Calculator
 {
   public void add(int a, int b)
   {
-    System.out.println("Addition : "+(a+b));
+    System.out.println("Addition result is : "+(a+b));
   }
   public void sub(int a, int b)
   {
-    System.out.println("Subtraction : "+(a-b));
+    System.out.println("Subtraction result is : "+(a-b));
   }
   public void mul(int a, int b)
   {
-    System.out.println("Multiplication : "+(a*b));
+    System.out.println("Multiplication result is : "+(a*b));
   }
   public void div(int a, int b)
   {
-    System.out.println("Division : "+(a/b));
+    System.out.println("Division result is : "+(a/b));
   }
   public void mod(int a, int b)
   {
-    System.out.println("Modulus : "+(a%b));
+    System.out.println("Modulus result is : "+(a%b));
   }
 }
 
